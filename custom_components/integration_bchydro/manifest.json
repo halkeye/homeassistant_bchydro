@@ -1,0 +1,13 @@
+{
+  "domain": "integration_bchydro",
+  "name": "BC Hydro",
+  "documentation": "https://github.com/halkeye/integration_bchydro",
+  "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/halkeye/integration_bchydro/issues",
+  "version": "0.0.0",
+  "requirements": ["bchydro"],
+  "config_flow": true,
+  "codeowners": [
+    "@halkeye"
+  ]
+}

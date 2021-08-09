@@ -1,8 +1,15 @@
 {
     "python.linting.pylintEnabled": true,
     "python.linting.enabled": true,
-    "python.pythonPath": "/usr/local/bin/python",
+    "python.formatting.provider": "black",
+    "editor.formatOnPaste": false,
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "python.pythonPath": "./.direnv/python-3.8.0/bin/python",
     "files.associations": {
         "*.yaml": "home-assistant"
+    },
+    "files.exclude": {
+        "workspace": true
     }
 }
