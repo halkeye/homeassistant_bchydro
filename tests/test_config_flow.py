@@ -6,11 +6,9 @@ import pytest
 from pytest_homeassistant_custom_component.common import MockConfigEntry
 
 from custom_components.integration_bchydro.const import (
-    BINARY_SENSOR,
     DOMAIN,
     PLATFORMS,
     SENSOR,
-    SWITCH,
 )
 
 from .const import MOCK_CONFIG
@@ -107,4 +105,4 @@ async def test_options_flow(hass):
     assert result["title"] == "test_username"
 
     # Verify that the options were updated
-    assert entry.options == {BINARY_SENSOR: True, SENSOR: False, SWITCH: True}
+    assert entry.options == {SENSOR: False}

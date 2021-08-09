@@ -15,9 +15,7 @@ _Component to integrate with [integration_bchydro][integration_bchydro]._
 
 Platform | Description
 -- | --
-`binary_sensor` | Show something `True` or `False`.
-`sensor` | Show info from API.
-`switch` | Switch something `True` or `False`.
+`sensor` | Show info from BCHydro
 
 ![example][exampleimg]
 
