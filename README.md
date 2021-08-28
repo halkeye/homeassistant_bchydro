@@ -1,3 +1,5 @@
+Archived due to not being able to backfill - https://community.home-assistant.io/t/can-i-make-a-sensor-that-has-data-from-the-past/328645/9
+
 # integration_bchydro
 
 [![GitHub Release][releases-shield]][releases]
